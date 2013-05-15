@@ -1,0 +1,22 @@
+{
+    "name": "kitpages/pdf-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony PdfBundle",
+    "keywords": ["PDF", "FPDF", "FPDI"],
+    "homepage": "https://github.com/kitpages/KitpagesPDFBundle",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Sébastien Lefebvre",
+            "email": "sebastien.lefebvre@kitpages.fr"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": "*"
+    },
+    "autoload": {
+        "psr-0": { "Kitpages\\PDFBundle": "" }
+    },
+    "target-dir": "Kitpages/PDFBundle"
+}
